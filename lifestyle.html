@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>lifestyle</title>
+    <link rel="stylesheet" href="fashion.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bodymovin/5.7.9/lottie.min.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>   
+</head>
+<body>
+
+    <div class="nav">
+        <div class="imaa"><img src="Preview.png"></div>
+       
+        <div class="home"><a href="index.html"><img src="home.png" width="25" ></a></div>
+            
+            
+                <div class="search-container">
+                    <input type="text" id="searchInput" placeholder="Search for products, brands and more">
+                    <i class="fas fa-search search-icon"></i>
+                    
+                </div>
+                
+                
+                <div>
+                    <div class="user">
+                        <img id="openProfileImg" src="user.png" width="20" >
+                        <br> profile
+                    </div>
+                    <div id="profileSlider" class="slider">
+                        <div class="slider-content">
+                            <!-- Profile details here -->
+                            <h3>User Profile</h3>
+                            
+                            <img class="pu" src="profile-user.png"  alt="...">
+                            <div class="signclose">
+                            <button class="sign">Sign In </button>
+                            <!-- <p class="puu">Name: John Doe</p>
+                            <p class="puuu">Email: john.doe@example.com</p> -->
+                            <!-- Add more profile details as needed -->
+
+                            <button class="sign" id="closeProfileBtn">Close</button>
+                        </div>
+                        <div class="full">
+                            <button class="full-width"> Your Account</button>
+                            <button class="full-width"> Your Orders</button>
+                            <button class="full-width"><img class="q" src="settings.png" alt="..." width="25">  Settings</button>
+                            <button class="full-width"><img class="q" src="question.png" alt="..." width="25"> Help</button>
+                        </div>
+                        </div>
+                    </div>
+                   
+                <div class="like">
+                    <img src="heart.png" width="20" >
+                    <br> wishlist
+                </div>
+                
+                       <div class="cart">
+                        <img src="cart.png" width="20" >
+                        <br> cart
+                        <span class="badge" id="cart-badge">0</span>
+                    </div>
+                   </div>
+                   <div>
+                    
+                    <button class="yo" onclick= "window.location.href='fashion.html'">Fashion</button>
+                    <button class="yo" onclick="window.location.href='beauty.html'">Beauty</button>
+                    <button class="yo" onclick="window.location.href='lifestyle.html'">Lifestyle</button>
+                    
+                </div>       
+          </div>
+  <!-- <div id="lottie-animation"></div> -->
+    
+  <div class="gallery">
+    <div class="photo-card" onclick="redirectToProductDetails(22)">
+        <img src="pl4.jpg" width="300"  height="350" alt="...">
+        <div class="details">
+            <h3>H&M</h3>
+            <p>Women Co-ord Set </p>
+            <p>Rs.1600</p>
+        </div>
+    </div>
+    <div class="photo-card" onclick="redirectToProductDetails(23)">
+        <img src="pl2.jpg" width="300"  height="350" alt="...">
+        <div class="details">
+            <h3>Styls</h3>
+            <p>Cotton Maxi dress</p>
+            <p>Rs.2499</p>
+        </div>
+    </div>
+    <div class="photo-card" onclick="redirectToProductDetails(24)">
+        <img src="pl3.jpg" width="300"  height="350" alt="...">
+        <div class="details">
+            <h3>Shein</h3>
+            <p>White Tank-Top</p>
+            <p>Rs.499</p>
+        </div>
+    </div>
+    <div class="photo-card" onclick="redirectToProductDetails(25)">
+        <img src="pl9.jpg" width="300"  height="350" alt="...">
+        <div class="details">
+            <h3>JACK & JONES</h3>
+            <p>Faux Leather Biker Jacket</p>
+            <p>Rs.1999</p>
+        </div>
+    </div>
+    <br>
+    <div class="photo-card" onclick="redirectToProductDetails(26)">
+        <img src="pl5.jpg" width="300"  height="350" alt="...">
+        <div class="details">
+            <h3>JACK & JONES</h3>
+            <p>Faux Leather Biker Jacket</p>
+            <p>Rs.1999</p>
+        </div>
+    </div>
+    <div class="photo-card" onclick="redirectToProductDetails(27)">
+        <img src="pl6.jpg" width="300"  height="350" alt="...">
+        <div class="details">
+            <h3>JACK & JONES</h3>
+            <p>Faux Leather Biker Jacket</p>
+            <p>Rs.1999</p>
+        </div>
+    </div>
+    <div class="photo-card" onclick="redirectToProductDetails(28)">
+        <img src="pl7.jpg" width="300"  height="350" alt="...">
+        <div class="details">
+            <h3>JACK & JONES</h3>
+            <p>Faux Leather Biker Jacket</p>
+            <p>Rs.1999</p>
+        </div>
+    </div>
+    <div class="photo-card" onclick="redirectToProductDetails(29)">
+        <img src="pl8.jpg" width="300"  height="350" alt="...">
+        <div class="details">
+            <h3>WILDCRAFT</h3>
+            <p>Black Leather Boots</p>
+            <p>Rs.1999</p>
+        </div>
+    </div>
+    <!-- Add more photo-cards as needed -->
+</div>
+    <!-- <script>
+      // Initialize Lottie
+      const animationContainer = document.getElementById('lottie-animation');
+      const animationData = {
+        container: animationContainer,
+        renderer: 'svg',
+        loop: true, // Set loop to true if you want the animation to loop
+        autoplay: true, // Set autoplay to true to start playing the animation immediately
+        path: 'animation1.json' // Replace 'your-animation.json' with the path to your JSON animation file
+      };
+  
+      // Load animation
+      const anim = lottie.loadAnimation(animationData);
+    </script> -->
+    <div id="header-container"></div>
+<div id="content-container">
+    <!-- Your main content -->
+</div>
+
+<div class="modal fade" id="signInModal" tabindex="-1" aria-labelledby="signInModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="signInModalLabel">Sign In</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <form id="signInForm">
+                    <div class="mb-3">
+                        <label for="email" class="form-label">Email address</label>
+                        <input type="email" class="form-control" id="email" required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="password" class="form-label">Password</label>
+                        <input type="password" class="form-control" id="password" required>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Sign In</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+    function redirectToProductDetails(productId) {
+        window.location.href = `product-details.html?productId=${productId}`;
+    }
+</script>
+    <script src="script.js"></script>
+</body>
+</html>
